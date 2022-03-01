@@ -1,0 +1,9 @@
+version: '3.9'
+
+services:
+  cassandra:
+    image: 'cassandra:4.0'
+    ports:
+      - 9042:9042
+    volumes:
+      - ~/Database/Cassandra:/var/lib/cassandra
