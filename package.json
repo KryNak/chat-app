@@ -1,0 +1,48 @@
+{
+  "name": "springreactdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.3",
+    "@babel/plugin-proposal-class-properties": "^7.16.7",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.6.0",
+    "regenerator-runtime": "^0.13.9",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.69.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@fontsource/roboto": "^4.5.3",
+    "@mui/icons-material": "^5.4.2",
+    "@mui/material": "^5.4.2",
+    "@reduxjs/toolkit": "^1.7.2",
+    "axios": "^0.26.0",
+    "lodash": "^4.17.21",
+    "net": "^1.0.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.6",
+    "react-router": "^6.2.1",
+    "react-router-dom": "^6.2.2",
+    "react-spring": "^9.4.3",
+    "react-stomp": "^5.1.0",
+    "react-transition-group": "^4.4.2",
+    "redux": "^4.1.2",
+    "sockjs-client": "^1.5.2",
+    "stomp-websocket": "^2.3.4-next",
+    "uuid": "^8.3.2"
+  }
+}
